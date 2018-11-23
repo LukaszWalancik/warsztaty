@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char Liczba1[10];
+    int n = 10;
+    int i;
+    for(i = 0; i < n; i ++)
+    {
+        printf("\nPodaj %d cyfre swojej liczby1: ",i);
+        scanf("%d",&Liczba1[i]);
+
+    }
+    int j;
+    for(j = 0; j < n; j ++)
+    {
+        printf("%d",Liczba1[j]);
+    }
+    return 0;
+}
